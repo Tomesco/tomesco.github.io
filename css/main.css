@@ -12,5 +12,23 @@
 .main-header {
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(http://placehold.it/350x150); /* main bg image */
+    background-position: 50% 50%;
+    background-image: url(http://placehold.it/800x400); /* main bg image */
+    height: 400px;
+    margin-bottom: 50px;
+    width: 100%;
 }
+.center-header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+/*.name {
+    width: 50%;
+    margin: 0 auto;
+    border: 50%;
+    text-align: center;
+    vertical-align: middle;
+}*/
