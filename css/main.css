@@ -1,4 +1,4 @@
-* {
+/** {
    outline: 1px solid red !important;
 }
 
@@ -7,22 +7,36 @@
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
-}
+}*/
 
 .main-header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    background-image: url(http://placehold.it/800x400); /* main bg image */
-    height: 400px;
-    margin-bottom: 50px;
+    background-image: url(https://www.ametsoc.org/stac/assets/Image/MOUNTAIN_image/Snow-Covered%20Sierra%20Nevada%20Mountains,%20California.jpg); /* main bg image */
+    height: 100%;
+    /*margin-bottom: 50px;*/
     width: 100%;
+    text-align: center;
+    display: table;
+    position: fixed;
 }
 .center-header {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.social { padding-top: 25px; }
+.social a {
+    font-size: 44px;
+    margin: 5px;
+    color: #000000;
+    opacity: 0.6;
+    line-height: 44px;
+}
+.social a:hover {
+    opacity: 1;
+    color: #000000;
 }
 
 /*.name {
