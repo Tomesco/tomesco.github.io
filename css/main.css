@@ -13,9 +13,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    background-image: url(https://www.ametsoc.org/stac/assets/Image/MOUNTAIN_image/Snow-Covered%20Sierra%20Nevada%20Mountains,%20California.jpg); /* main bg image */
+    /*background-image: url(https://www.ametsoc.org/stac/assets/Image/MOUNTAIN_image/Snow-Covered%20Sierra%20Nevada%20Mountains,%20California.jpg);  main bg image */
     height: 100%;
-    /*margin-bottom: 50px;*/
+    margin-bottom: 50px;
     width: 100%;
     text-align: center;
     display: table;
@@ -39,10 +39,12 @@
     color: #000000;
 }
 
-/*.name {
-    width: 50%;
-    margin: 0 auto;
-    border: 50%;
-    text-align: center;
-    vertical-align: middle;
-}*/
+.name {
+    color: #2d30d9;
+}
+
+.hline-bottom {
+    border-bottom: 3px solid red; /* whichever color you prefer */
+    width: 35%;
+    margin: auto;
+}
