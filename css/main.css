@@ -9,6 +9,10 @@
     box-sizing: border-box;
 }*/
 
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
 .main-header {
     background-size: cover;
     background-repeat: no-repeat;
@@ -26,25 +30,46 @@
     display: table-cell;
 }
 
-.social { padding-top: 25px; }
+.tag-line {
+    font-size: 110%;
+}
+
+.statement {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/*.social { padding-top: 25px; }*/
 .social a {
-    font-size: 44px;
+    font-size: 36px;
     margin: 5px;
-    color: #000000;
     opacity: 0.6;
-    line-height: 44px;
+    line-height: 40px;
 }
 .social a:hover {
     opacity: 1;
-    color: #000000;
 }
 
 .name {
     color: #2d30d9;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 5px;
+    font-weight: bold
 }
 
 .hline-bottom {
     border-bottom: 3px solid red; /* whichever color you prefer */
-    width: 35%;
+    width: 350px;
     margin: auto;
+}
+
+.center {
+    width: 350px;
+    margin:0 auto;
+    text-align:left;
+}
+
+.inside {
+    list-style-position: inside;
+    padding: 0 0 0 0;
 }
