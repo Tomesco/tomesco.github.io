@@ -28,6 +28,7 @@
 .center-header {
     vertical-align: middle;
     display: table-cell;
+    max-width: 100%;
 }
 
 .tag-line {
